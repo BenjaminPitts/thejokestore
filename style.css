@@ -1,0 +1,87 @@
+
+/* * {
+  border: 1px solid gold;
+} */
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid gold;
+}
+
+.buttons, .selector, .output2, form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+button, input {
+  border-radius: 8%;
+  padding: .4em;
+  margin: .4em;
+  background: ivory;
+}
+button:hover {
+  cursor: pointer;
+  background: gold;
+  transition: .7s;
+}
+h1 {
+  padding: 0;
+  margin: .5em 0 0 0;
+}
+h3 {
+  padding: 0;
+  margin: .3em;
+}
+h4 {
+  padding: .2em;
+  margin: 0;
+}
+h5 {
+  padding: 0;
+  margin: 0 0 0 1em;
+}
+.output, .goto, .output2, .output3, .weather {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: .5em;
+}
+
+.dad-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.dad-carousel img {
+  width: 40%;
+  border-radius: 10px;
+  display: none;
+}
+
+
+body, .header, .buttons, .selector {
+  background-color: #090909;
+  color: ivory;
+  font-family: 'Luckiest Guy', sans-serif;
+}
+
+@media (max-width:500px) {
+button {
+  display: flex;
+  font-size: 18px;
+  }
+}
